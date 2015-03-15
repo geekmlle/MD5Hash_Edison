@@ -13,7 +13,7 @@ public class MD5CheckSumExample
     public static void main(String[] args)throws Exception
     {
         MessageDigest md = MessageDigest.getInstance("MD5");
-        FileInputStream fis = new FileInputStream("c:\\loging.log");
+        FileInputStream fis = new FileInputStream("/Users/blondieymollo/Developer/Projects/PDP/test.log");
 
         byte[] dataBytes = new byte[1024];
 
